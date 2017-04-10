@@ -15,6 +15,12 @@
       console.log(b)
 </script>
 ```
+```
+var a='apple,pear,orange'
+   var b=Array.from(a)
+    console.log(b)
+    //["a", "p", "p", "l", "e", ",", "p", "e", "a", "r", ",", "o", "r", "a", "n", "g", "e"]
+```
 ### 数组转化为字符串
 ```
   <script type="text/javascript">
