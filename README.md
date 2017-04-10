@@ -37,8 +37,51 @@
       console.log(arr)
    </script>
 ```
-### 数组遍历
+### 数组遍历,各种for循环
+- es6 forEach
 ```
         var aaa=[1,3,2,-7,6]
    	    aaa.forEach((i)=>console.log(i))
 ```
+- 原生for循环
+```
+
+    var arr=['apple','pear','orange','banana']
+     for(let i=0;i<arr.length;i++){
+     console.log(arr[i])
+     }
+
+   
+```
+- for的升级版for-in
+```
+var arr=['apple','pear','orange','banana']
+
+    for(let i in arr){
+    console.log(arr[i])
+    }
+
+
+```
+- for-of
+```
+for(let i of arr){
+console.log(i)
+}
+
+```
+### json遍历
+```
+ <script type="text/javascript">
+   var a={
+   	name:'xiongwei',
+   	age:26,
+   	say:function(){
+   		alert(1)
+   	}
+   }
+Object.keys(a).forEach((i)=>console.log(i,a[i]))
+
+   </script>
+```
+
