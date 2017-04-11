@@ -90,4 +90,4 @@ Object.keys(a).forEach((i)=>console.log(i,a[i]))
 
    </script>
 ```
-
+### [万能选择器和事件驱动]（http://www.jianshu.com/p/a733c7533aea）
